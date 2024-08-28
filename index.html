@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .navbar {
-  overflow: hidden;
-  background-color: red;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MiHealth</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="navbar">
+                    <a rel="home" href="index.html" class="roboto-black" id="red">MI</a>
+                    <a rel="home" href="index.html" class="roboto-black" id="green">HEALTH</a>
+                    <span class="header-right">
+                        <a>Dessert</a>
+                        <a>Dinner</a>
+                        <a>Lunch</a>
+                        <a>Breakfast</a>
+                    </span>
+                </div>
+            </header>
+        
+            <div class="main">
+                <div class="left"><!--heading, paragraph, 'browse menu'-->
+                    <h1 class="roboto-black">Be<br>Healthy</h1>
+                    <p class="paragraph">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                        gravida. Risus commodo viverra maecenas accumsan lacus vel
+                        facilisis.</p>
+                    <a class="arrow">BROWSE MENU --></a>
+                </div>
 
-    </style>
-    <title>MiHealth</title>
-</head>
-<body>
-    <!--menu-bar-->
-    <a>MiHealth</a>
-    <div class="navbar">
-        <a href="#" class="right">Breakfast</a>
-        <a href="#" class="right">Lunch</a>
-        <a href="#" class="right">Dinner</a>
-        <a href="#" class="right">Dessert</a>
-    </div>
-</body>
+
+
+
+                <div class="right"><!--three pictures-->
+                    <span class="pic">
+                        <div>
+                            <img src="apple-breakfast-quinoa-7.jpg" alt="Apple breakfast quinoa">
+                            <span>Fresh</span>
+                            <span>Breakfast</span>
+                        </div>
+                        <div>
+                            <img src="pasta-salad-recipe-for-lunch.jpg" alt="Pasta salad">
+                            <span>Sweet</span>
+                            <span>Lunch</span>
+                        </div>
+                        <div>
+                            <img src="Screenshot_208.jpg" alt="Shrimp and rice">
+                            <span>Delicious</span>
+                            <span>Dinner</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
