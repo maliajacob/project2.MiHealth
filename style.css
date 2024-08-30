@@ -7,16 +7,20 @@
     text-decoration: none;
     font-size: 40px;
 }
+
 #red {
     color: #ce2020;
 }
+
 #green {
     color: #8dc728;
 }
 
 body {
     margin: 0px;
+    background-image: url(restaurant.png);
 }
+
 .container {
     background-color: #e0e0e0;
 }
@@ -24,33 +28,45 @@ body {
 .navbar {
     background-color: #ffffff;
     padding: 20px 80px;
+    
 }
+
 .header-right a {
     text-decoration: none;
     font-size: 16px;
     padding: 25px;
     text-align: center;
     float: right;
+    color: #333
 }
 
-.left {
+.main {
     padding: 40px 70px;
+    display: flex;
 }
-.paragraph {
+
+p {
     line-height: 20px;
     width: 210px;
 }
+
 .arrow {
     line-height: 40px;
     font-weight: bold;
 }
 
-
-
 .pic{
     display: flex;
+    padding: 40px;
 }
 
 img {
+    width: 290px;
+    padding: 12px;
+}
+
+#shrimp {
+    object-fit: cover;
     width: 300px;
+    height: 450px;
 }
