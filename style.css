@@ -55,7 +55,7 @@ p {
     font-weight: bold;
 }
 
-.pic{
+.image-container{
     display: flex;
     padding: 40px;
 }
@@ -67,6 +67,79 @@ img {
 
 #shrimp {
     object-fit: cover;
-    width: 300px;
+    width: 290px;
     height: 450px;
+    position: static;
+
+}
+
+#pasta {
+    width: 290px;
+    position: static;
+
+}
+
+#apple {
+    position: relative;
+
+}
+
+.text-overlay {
+    position: absolute;
+    transform: translate(185px, 427px);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+  }
+
+  .greenbox {
+    position: absolute;
+    transform: translate(152px, 414px);
+    padding: 24px 75px;
+    background-color: #8dc728;
+  }
+
+  .whitebox {
+    position: absolute;
+    transform: translate(214px, 364px);
+    padding: 14px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 20px;
+  }
+
+#sweet {
+    transform: translate(523px, 363px);
+}
+
+#lunch {
+    transform: translate(538px, 427px);
+}
+
+.lunch-greenbox {
+    position: absolute;
+    transform: translate(467px, 414px);
+    padding: 24px 75px;
+    background-color: #8dc728;
+}
+
+#delicious {
+    transform: translate(802px, 363px);
+}
+
+.dinner-greenbox {
+    position: absolute;
+    transform: translate(781px, 414px);
+    padding: 24px 75px;
+    background-color: #8dc728;
+}
+
+#dinner {
+    transform: translate(847px, 427px);
 }
