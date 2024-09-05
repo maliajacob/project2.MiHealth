@@ -5,24 +5,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MiHealth</title>
         <link rel="stylesheet" href="style.css">
+        
     </head>
     <body>
+        <header>
+            <div class="navbar">
+                <a rel="home" href="index.html" class="archivo-black-regular" id="red">MI</a>
+                <a rel="home" href="index.html" class="archivo-black-regular" id="green">HEALTH</a>
+                <span class="header-right">
+                    <a href="#">Dessert</a>
+                    <a href="#">Dinner</a>
+                    <a href="#">Lunch</a>
+                    <a href="#">Breakfast</a>
+                </span>
+            </div>
+        </header>
+
+
         <div class="container">
-            <header>
-                <div class="navbar">
-                    <a rel="home" href="index.html" class="roboto-black" id="red">MI</a>
-                    <a rel="home" href="index.html" class="roboto-black" id="green">HEALTH</a>
-                    <span class="header-right">
-                        <a href="#">Dessert</a>
-                        <a href="#">Dinner</a>
-                        <a href="#">Lunch</a>
-                        <a href="#">Breakfast</a>
-                    </span>
-                </div>
-            </header>
-            <div class="main"><!--heading, paragraph, 'browse menu'-->
-                <div>
-                    <h1 class="roboto-black">Be<br>Healthy</h1>
+            <div class="main">
+                <div class="left-section">
+                    <h1>Be<br>Healthy</h1>
                     <p>
                         Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -30,28 +33,29 @@
                         gravida. Risus commodo viverra maecenas accumsan lacus vel                        
                         facilisis.
                     </p>
-                    <a class="arrow">BROWSE MENU --></a>
+                    <br><a href="#" class="arrow">BROWSE MENU →</a>
                 </div>
+
                 <div class="image-container">
                     <img id="apple" src="apple-breakfast-quinoa-7.jpg" alt="Apple breakfast quinoa">
-                    <div class="whitebox">Fresh</div>
-                    <div class="greenbox"></div><div class="text-overlay">Breakfast</div>
+                    <div class="whitebox">FRESH</div>
+                    <div class="greenbox"></div><div class="text-overlay">BREAKFAST</div>
 
                     <img id="pasta" src="pasta-salad-recipe-for-lunch.jpg" alt="Pasta salad">
-                    <div class="whitebox" id="sweet">Sweet</div>
-                    <div class="lunch-greenbox"></div><div class="text-overlay" id="lunch">Lunch</div>
+                    <div class="whitebox" id="sweet">SWEET</div>
+                    <div class="lunch-greenbox"></div><div class="text-overlay" id="lunch">LUNCH</div>
 
                     <img id="shrimp" src="Screenshot_208.jpg" alt="Shrimp and rice">
-                    <div class="whitebox" id="delicious">Delicious</div>
-                    <div class="dinner-greenbox"></div><div class="text-overlay" id="dinner">Dinner</div>
-
-
+                    <div class="whitebox" id="delicious">DELICIOUS</div>
+                    <div class="dinner-greenbox"></div><div class="text-overlay" id="dinner">DINNER</div>
                 </div>      
             </div>
         </div>
-            <footer>
+
+
+            <footer class="footer">
                 <p>Author: Malia Jacob</p>
-                <p><a href="mailto:hege@example.com">malia@example.com</a></p>
+                <a href="#">malia@example.com</a>
             </footer>
     </body>
 </html>

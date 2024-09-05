@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    letter-spacing: 2px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 34px;
 }
 
 #red {
@@ -23,12 +23,12 @@ body {
 
 .container {
     background-color: #e0e0e0;
+    padding: 40px;
 }
 
 .navbar {
     background-color: #ffffff;
-    padding: 20px 80px;
-    
+    padding: 25px 80px;
 }
 
 .header-right a {
@@ -41,40 +41,50 @@ body {
 }
 
 .main {
-    padding: 40px 70px;
+    padding: 45px 42px;
     display: flex;
+    
 }
 
 p {
-    line-height: 20px;
-    width: 210px;
+    line-height: 25px;
+    width: 290px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(52, 52, 52);
+}
+
+a {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: rgb(52, 52, 52);
+    text-decoration: none;
 }
 
 .arrow {
     line-height: 40px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .image-container{
     display: flex;
-    padding: 40px;
 }
 
 img {
-    width: 290px;
-    padding: 12px;
+    width: 275px;
+    padding: 7px;
 }
 
 #shrimp {
     object-fit: cover;
-    width: 290px;
-    height: 450px;
+    height: 430px;
     position: static;
 
 }
 
 #pasta {
-    width: 290px;
     position: static;
 
 }
@@ -86,60 +96,72 @@ img {
 
 .text-overlay {
     position: absolute;
-    transform: translate(185px, 427px);
-    color: black;
+    transform: translate(175px, 406px);
+    font-size: 15px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    font-style: normal;
-    letter-spacing: 2px;
-    font-size: 20px;
   }
 
   .greenbox {
     position: absolute;
-    transform: translate(152px, 414px);
-    padding: 24px 75px;
+    transform: translate(143px, 391px);
+    padding: 23px 70px;
     background-color: #8dc728;
   }
 
   .whitebox {
     position: absolute;
-    transform: translate(214px, 364px);
-    padding: 14px;
+    transform: translate(201px, 344px);
+    padding: 15px;
     background-color: white;
+    font-size: 15px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    font-style: normal;
-    letter-spacing: 2px;
-    font-size: 20px;
-  }
+}
 
 #sweet {
-    transform: translate(523px, 363px);
+    transform: translate(488px, 342px);
 }
 
 #lunch {
-    transform: translate(538px, 427px);
+    transform: translate(504px, 405px);
 }
 
 .lunch-greenbox {
     position: absolute;
-    transform: translate(467px, 414px);
+    transform: translate(421px, 389px);
     padding: 24px 75px;
     background-color: #8dc728;
 }
 
 #delicious {
-    transform: translate(802px, 363px);
+    transform: translate(749px, 342px);
 }
 
 .dinner-greenbox {
     position: absolute;
-    transform: translate(781px, 414px);
+    transform: translate(710px, 389px);
     padding: 24px 75px;
     background-color: #8dc728;
 }
 
 #dinner {
-    transform: translate(847px, 427px);
+    transform: translate(788px, 406px);
+}
+
+.left-section {
+    padding: 0px 80px 0px 0px;
+}
+
+h1 {
+    margin: 0px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 55px;
+}
+
+.footer {
+    padding: 0px 20px;
 }
